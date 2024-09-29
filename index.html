@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📱 Detektor Fałszywych Wiadomości SMS - Bezpieczeństwo Twoich SMS-ów</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Detektor Fałszywych Wiadomości SMS pomaga w identyfikacji potencjalnych oszustw w wiadomościach SMS. Chron swoje dane osobowe i finansowe.">
+    <meta name="keywords" content="fałszywe SMS, detektor SMS, bezpieczeństwo SMS, ochrona przed oszustwami, analiza wiadomości SMS">
+    <meta name="author" content="Rafał Dębski">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://twojastrona.pl/">
+    <meta property="og:title" content="📱 Detektor Fałszywych Wiadomości SMS - Bezpieczeństwo Twoich SMS-ów">
+    <meta property="og:description" content="Detektor Fałszywych Wiadomości SMS pomaga w identyfikacji potencjalnych oszustw w wiadomościach SMS. Chron swoje dane osobowe i finansowe.">
+    <meta property="og:image" content="https://twojastrona.pl/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://twojastrona.pl/">
+    <meta property="twitter:title" content="📱 Detektor Fałszywych Wiadomości SMS - Bezpieczeństwo Twoich SMS-ów">
+    <meta property="twitter:description" content="Detektor Fałszywych Wiadomości SMS pomaga w identyfikacji potencjalnych oszustw w wiadomościach SMS. Chron swoje dane osobowe i finansowe.">
+    <meta property="twitter:image" content="https://twojastrona.pl/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- CSS for Styling -->
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        header {
+            background-color: #02ab21;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+        }
+        
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border: 2px solid #02ab21;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+        
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        footer p {
+            font-size: 0.9em;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            
+            header p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>📱 Detektor Fałszywych Wiadomości SMS</h1>
+            <p>Chroń swoje dane osobowe i finansowe przed oszustwami SMS</p>
+        </header>
+        
+        <!-- Main Content with Embedded Streamlit App -->
+        <main>
+            <div class="iframe-container">
+                <iframe 
+                    src="https://rafaldembski-fakedetector.hf.space" 
+                    title="Detektor Fałszywych Wiadomości SMS"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </main>
+        
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Rafał Dębski. Wszystkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+</body>
+</html>
