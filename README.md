@@ -1,1 +1,1 @@
-# FakeDetector
+# ScamDetector
